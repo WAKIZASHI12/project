@@ -1,0 +1,3 @@
+def sex():
+    print('Nikoooo')
+    
