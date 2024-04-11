@@ -8,4 +8,3 @@ from .serializers import CompanyGoalSerializer
 class CompanyGoalViewSet(viewsets.ModelViewSet):
     queryset = CompanyGoal.objects.all()
     serializer_class = CompanyGoalSerializer
-  

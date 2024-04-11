@@ -48,6 +48,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -117,6 +141,22 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -200,6 +240,46 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -280,11 +360,27 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -350,6 +446,14 @@
         "description": "rest_framework.response",
         "isExtraImport": true,
         "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
         "documentation": {}
     },
     {
@@ -676,12 +780,111 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "reviews.migrations.0001_initial",
+        "description": "reviews.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Review',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('author', models.CharField(max_length=100)),",
+        "detail": "reviews.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewsConfig",
+        "kind": 6,
+        "importPath": "reviews.apps",
+        "description": "reviews.apps",
+        "peekOfCode": "class ReviewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'reviews'",
+        "detail": "reviews.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "reviews.models",
+        "description": "reviews.models",
+        "peekOfCode": "class Review(models.Model):\n    author = models.CharField(max_length=100)\n    content = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "reviews.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewSerializer",
+        "kind": 6,
+        "importPath": "reviews.serializers",
+        "description": "reviews.serializers",
+        "peekOfCode": "class ReviewSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Review\n        fields = '__all__'",
+        "detail": "reviews.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "reviews.urls",
+        "description": "reviews.urls",
+        "peekOfCode": "urlpatterns = [\n    path('reviews/', ReviewListView.as_view())\n]",
+        "detail": "reviews.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewListView",
+        "kind": 6,
+        "importPath": "reviews.views",
+        "description": "reviews.views",
+        "peekOfCode": "class ReviewListView(ListAPIView):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "detail": "reviews.views",
+        "documentation": {}
+    },
+    {
         "label": "SupportServicesConfig",
         "kind": 6,
         "importPath": "support_services.apps",
         "description": "support_services.apps",
         "peekOfCode": "class SupportServicesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'support_services'",
         "detail": "support_services.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SupportRequest",
+        "kind": 6,
+        "importPath": "support_services.models",
+        "description": "support_services.models",
+        "peekOfCode": "class SupportRequest(models.Model):\n    subject = models.CharField(max_length=100)\n    description = models.TextField()\n    status = models.CharField(max_length=20, default='open')\n    def __str__(self):\n        return self.subject",
+        "detail": "support_services.models",
+        "documentation": {}
+    },
+    {
+        "label": "SupportRequestSerializer",
+        "kind": 6,
+        "importPath": "support_services.serializers",
+        "description": "support_services.serializers",
+        "peekOfCode": "class SupportRequestSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = SupportRequest\n        fields = ['id', 'subject', 'description', 'status']",
+        "detail": "support_services.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "support_services.urls",
+        "description": "support_services.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'support_requests', SupportRequestViewSet)\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "support_services.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "support_services.urls",
+        "description": "support_services.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "support_services.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SupportRequestViewSet",
+        "kind": 6,
+        "importPath": "support_services.views",
+        "description": "support_services.views",
+        "peekOfCode": "class SupportRequestViewSet(viewsets.ModelViewSet):\n    queryset = SupportRequest.objects.all()\n    serializer_class = SupportRequestSerializer",
+        "detail": "support_services.views",
         "documentation": {}
     },
     {
