@@ -24,5 +24,6 @@ urlpatterns = [
     
     path('api/', include('company_goals.urls')),
     path('', include('refunds.urls')),
+    path('', include('ticket.urls')),
 ]
 
