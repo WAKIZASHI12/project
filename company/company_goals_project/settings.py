@@ -40,6 +40,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'company_goals',
     
+    'refunds',
+    
+    
+   
+    
+    
 ]
 
 MIDDLEWARE = [
