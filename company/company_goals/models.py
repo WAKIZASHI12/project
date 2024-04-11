@@ -1,10 +1,5 @@
 from django.db import models
-
-# Create your models here.
-
-# Create your models here.
-
-
+  
 class CompanyGoal(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()

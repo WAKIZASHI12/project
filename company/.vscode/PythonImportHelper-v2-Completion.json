@@ -168,11 +168,27 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -229,6 +245,30 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -313,6 +353,22 @@
     },
     {
         "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -456,19 +512,11 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
         "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -497,6 +545,30 @@
     },
     {
         "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -942,7 +1014,7 @@
         "kind": 5,
         "importPath": "company_goals_project.urls",
         "description": "company_goals_project.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  \n    path('api/', include('company_goals.urls')),\n    path('', include('refunds.urls')),\n    path('', include('ticket.urls')),\n    path('api/', include('support_services.urls')),\n    path('', include('payment.urls')),\n    path('', include('buying_tickets.urls')),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  \n    path('api/company_goals', include('company_goals.urls')),\n    path('api/refunds', include('refunds.urls')),\n    path('api/ticket', include('ticket.urls')),\n    path('api/support_services', include('support_services.urls')),\n    path('api/payment', include('payment.urls')),\n    path('api/buying_tickets', include('buying_tickets.urls')),\n    path('api/goals',include('goals.urls')),\n    path('api/reviews',include('reviews.urls')), ",
         "detail": "company_goals_project.urls",
         "documentation": {}
     },
@@ -953,6 +1025,60 @@
         "description": "company_goals_project.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "company_goals_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "goals.migrations.0001_initial",
+        "description": "goals.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Goal',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "goals.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "GoalsConfig",
+        "kind": 6,
+        "importPath": "goals.apps",
+        "description": "goals.apps",
+        "peekOfCode": "class GoalsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'goals'",
+        "detail": "goals.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Goal",
+        "kind": 6,
+        "importPath": "goals.models",
+        "description": "goals.models",
+        "peekOfCode": "class Goal(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField()\n    due_data = models.DateField()\n    def __str__(self):\n        return self.name",
+        "detail": "goals.models",
+        "documentation": {}
+    },
+    {
+        "label": "GoalSerializer",
+        "kind": 6,
+        "importPath": "goals.serializers",
+        "description": "goals.serializers",
+        "peekOfCode": "class GoalSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Goal\n        fields = ['id','name','description','due_data']",
+        "detail": "goals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "goals.urls",
+        "description": "goals.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', GoalViewSet.as_view({'get': 'list', 'post': 'create'}), name='goal-list'),\n    path('<int:pk>/', GoalViewSet.as_view({'get': 'retrieve', 'put': 'update', 'delete': 'destroy'}), name='goal-detail'),\n]",
+        "detail": "goals.urls",
+        "documentation": {}
+    },
+    {
+        "label": "GoalViewSet",
+        "kind": 6,
+        "importPath": "goals.views",
+        "description": "goals.views",
+        "peekOfCode": "class GoalViewSet(viewsets.ModelViewSet):\n    queryset = Goal.objects.all()\n    serializer_class = GoalSerializer",
+        "detail": "goals.views",
         "documentation": {}
     },
     {

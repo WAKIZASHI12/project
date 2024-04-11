@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'support_services',
     'payment',
     'buying_tickets',
-    
+    'goals',
+    'reviews',
     
     
     
