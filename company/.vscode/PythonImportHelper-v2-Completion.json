@@ -72,6 +72,70 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -152,6 +216,38 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -200,6 +296,22 @@
         "documentation": {}
     },
     {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "routers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -209,6 +321,22 @@
     },
     {
         "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -312,6 +440,38 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -368,6 +528,14 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -381,6 +549,14 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
@@ -471,6 +647,69 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "buying_tickets.migrations.0001_initial",
+        "description": "buying_tickets.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Ticket',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('flight_number', models.CharField(max_length=10)),",
+        "detail": "buying_tickets.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "BuyingTicketsConfig",
+        "kind": 6,
+        "importPath": "buying_tickets.apps",
+        "description": "buying_tickets.apps",
+        "peekOfCode": "class BuyingTicketsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'buying_tickets'",
+        "detail": "buying_tickets.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Ticket",
+        "kind": 6,
+        "importPath": "buying_tickets.models",
+        "description": "buying_tickets.models",
+        "peekOfCode": "class Ticket(models.Model):\n    flight_number = models.CharField(max_length=10)\n    departure_city = models.CharField(max_length=50)\n    arrival_city = models.CharField(max_length=50)\n    departure_time = models.DateTimeField()\n    arrival_time = models.DateTimeField()\n    price = models.DecimalField(max_digits=6, decimal_places=2)\n    seats_available = models.IntegerField()",
+        "detail": "buying_tickets.models",
+        "documentation": {}
+    },
+    {
+        "label": "TicketSerializer",
+        "kind": 6,
+        "importPath": "buying_tickets.serializers",
+        "description": "buying_tickets.serializers",
+        "peekOfCode": "class TicketSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Ticket\n        fields = ['id', 'flight_number', 'departure_city', 'arrival_city', 'departure_time', 'arrival_time', 'price', 'seats_available']",
+        "detail": "buying_tickets.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "buying_tickets.urls",
+        "description": "buying_tickets.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'tickets', TicketViewSet, basename='ticket')\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "buying_tickets.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "buying_tickets.urls",
+        "description": "buying_tickets.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "buying_tickets.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TicketViewSet",
+        "kind": 6,
+        "importPath": "buying_tickets.views",
+        "description": "buying_tickets.views",
+        "peekOfCode": "class TicketViewSet(viewsets.ModelViewSet):\n    queryset = Ticket.objects.all()\n    serializer_class = TicketSerializer",
+        "detail": "buying_tickets.views",
         "documentation": {}
     },
     {
@@ -703,7 +942,7 @@
         "kind": 5,
         "importPath": "company_goals_project.urls",
         "description": "company_goals_project.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  \n    path('api/', include('company_goals.urls')),\n    path('', include('refunds.urls')),\n    path('', include('ticket.urls')),\n    path('api/', include('support_services.urls')),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  \n    path('api/', include('company_goals.urls')),\n    path('', include('refunds.urls')),\n    path('', include('ticket.urls')),\n    path('api/', include('support_services.urls')),\n    path('', include('payment.urls')),\n    path('', include('buying_tickets.urls')),\n]",
         "detail": "company_goals_project.urls",
         "documentation": {}
     },
@@ -714,6 +953,69 @@
         "description": "company_goals_project.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "company_goals_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "payment.migrations.0001_initial",
+        "description": "payment.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Payment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('amount', models.DecimalField(decimal_places=2, max_digits=10)),",
+        "detail": "payment.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentConfig",
+        "kind": 6,
+        "importPath": "payment.apps",
+        "description": "payment.apps",
+        "peekOfCode": "class PaymentConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'payment'",
+        "detail": "payment.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "payment.models",
+        "description": "payment.models",
+        "peekOfCode": "class Payment(models.Model):\n    amount = models.DecimalField(max_digits=10, decimal_places=2)\n    payment_method = models.CharField(max_length=255)\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Payment of {self.amount} {self.payment_method} at {self.timestamp}\"",
+        "detail": "payment.models",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentSerializer",
+        "kind": 6,
+        "importPath": "payment.serializers",
+        "description": "payment.serializers",
+        "peekOfCode": "class PaymentSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Payment\n        fields = ['amount', 'payment_method', 'timestamp']",
+        "detail": "payment.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "payment.urls",
+        "description": "payment.urls",
+        "peekOfCode": "urlpatterns = [\n    path('payments/', PaymentList.as_view(), name='payment_list'),\n    path('payments/<int:pk>/', PaymentDetail.as_view(), name='payment_detail'),\n]",
+        "detail": "payment.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentList",
+        "kind": 6,
+        "importPath": "payment.views",
+        "description": "payment.views",
+        "peekOfCode": "class PaymentList(generics.ListCreateAPIView):\n    queryset = Payment.objects.all()\n    serializer_class = PaymentSerializer\nclass PaymentDetail(generics.RetrieveUpdateDestroyAPIView):\n    queryset = Payment.objects.all()\n    serializer_class = PaymentSerializer",
+        "detail": "payment.views",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentDetail",
+        "kind": 6,
+        "importPath": "payment.views",
+        "description": "payment.views",
+        "peekOfCode": "class PaymentDetail(generics.RetrieveUpdateDestroyAPIView):\n    queryset = Payment.objects.all()\n    serializer_class = PaymentSerializer",
+        "detail": "payment.views",
         "documentation": {}
     },
     {
@@ -831,6 +1133,15 @@
         "description": "reviews.views",
         "peekOfCode": "class ReviewListView(ListAPIView):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
         "detail": "reviews.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "support_services.migrations.0001_initial",
+        "description": "support_services.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='SupportRequest',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('subject', models.CharField(max_length=100)),",
+        "detail": "support_services.migrations.0001_initial",
         "documentation": {}
     },
     {

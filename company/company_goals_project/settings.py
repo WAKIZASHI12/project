@@ -41,7 +41,11 @@ INSTALLED_APPS = [
     'company_goals',
     'refunds',
     'ticket',
-    'support_services'
+    'support_services',
+    'payment',
+    'buying_tickets',
+    
+    
     
     
    
