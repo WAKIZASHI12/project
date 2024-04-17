@@ -22,11 +22,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),  
     path('api/company_goals', include('company_goals.urls')),
     path('api/refunds', include('refunds.urls')),
-    path('api/ticket', include('ticket.urls')),
+    path('', include('ticket.urls')),
     path('api/support_services', include('support_services.urls')),
     path('api/payment', include('payment.urls')),
     path('api/buying_tickets', include('buying_tickets.urls')),
+    path('api/reviews',include('reviews.urls')),
     path('api/goals',include('goals.urls')),
-    path('api/reviews',include('reviews.urls')), 
 ]
 
